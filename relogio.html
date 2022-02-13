@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relógio</title>
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/relogio.css" />
+    <link rel="stylesheet" href="assets/cabecalho.css" />
+    <link rel="stylesheet" href="assets/menu/menu-item.css" />
+    <link rel="stylesheet" href="assets/menu/menu-link.css" />
+    <link rel="stylesheet" href="assets/menu/menu-lista.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <!--Cabeçalho-->
+      <nav class="menu">
+        <ul class="menu__lista">
+          <li class="menu__item">
+            <a class="menu__link" href="index.html">Lista de Tarefas</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="password.html">Password generator</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" id="ativo" href="relogio.html">Relógio</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container">
+        <div class="container__relogio">
+          <h1>Relógio Digital</h1>
+          <h3 id="hora"></h3>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>

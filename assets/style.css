@@ -1,0 +1,32 @@
+body {
+  background: url("../html-color-codes-color-tutorials.jpg") center / cover
+    no-repeat;
+  height: calc(100vh - 72px); /*Deixa do tamanho da nossa tela */
+  width: 100%;
+}
+
+h1 {
+  color: #b72e2e;
+  font-family: Pacifico, cursive;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.95);
+  text-align: center;
+  width: 100%;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  font-size: 0.8rem;
+  text-align: center;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
+  width: 25px;
+  padding: 2px;
+  transition: 1s all; /* velocidade de transicao ao passar o mouse por cima */
+}
+
+button:hover {
+  background-color: rgb(218, 80, 80);
+}
